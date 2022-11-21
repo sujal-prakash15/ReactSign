@@ -1,0 +1,42 @@
+.App {
+  text-align: center;
+  background:linear-gradient(45deg,#6C1BAA,#213049);
+  min-height: 100vh;
+  color: white;
+  padding-left: 3rem;
+}
+
+
+.App-header {
+  display: flex;
+  flex-direction: row;
+  align-items: left;
+  justify-content: flex-start;
+  text-shadow: 0px 0px 20px white;
+  font-size: calc(10px + 2vmin);
+  font-weight: 10px;
+  color: white;
+}
+.App-main{
+  display: flex;
+  justify-content: space-between;
+  
+}
+.content{
+  float: left;
+  font-size: 7rem;
+  padding-top: 8rem;
+  text-align: justify;
+  text-shadow: 0px 0px 20px white;
+  font-weight: 400;
+}
+
+.btn{
+  background-color: transparent;
+  font-size: 1rem;
+  color: white;
+  border:2px solid white;
+  border-radius: 5px;
+  padding:1rem;
+}
+
